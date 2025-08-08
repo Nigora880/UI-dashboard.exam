@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body{
+    overflow-y: hidden;
+}
+.login-bg{
+    background-image: url("./assets/img/loginBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.log-bg{
+    background-image: url("./assets/img/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.liner{
+    background: linear-gradient(117.45deg, rgba(255, 255, 255, 0) -3.91%, rgba(255, 255, 255, 0.039) 75.27%);
+ border: 2px solid;
+
+border-image-source: radial-gradient(69.43% 69.43% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(60% 51.57% at 50% 50%, #582CFF 0%, rgba(88, 44, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(54.8% 53% at 50% 50%, #151515 0%, rgba(21, 21, 21, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+backdrop-filter: blur(42px)
+
+}
