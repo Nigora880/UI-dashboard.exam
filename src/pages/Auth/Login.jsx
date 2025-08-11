@@ -17,7 +17,7 @@ const Login = () => {
   const navigate = useNavigate( )
   const [isLoading, setIsLoading] = useState(false) 
   const { registerData } = useContext(Context);
-  const [cookies, setCookie] = useCookies(["token"]);
+  const [_cookies, setCookie] = useCookies(["token"]);
 
   function handleSubmitLogin(e) {
     setIsLoading(true)

@@ -1,5 +1,6 @@
 import { BillingIcon, NavDashIcon, NavProIcon, NavSignInIcon, NavUpIcon, RTLIcon, TablesIcon } from "../assets/icons";
 import { Billing, Dashboard, Profile, RTL, SignIn, SignUp, Tables } from "../pages/Dashboard";
+import Heading from "./Heading";
 import { PATH } from "./path";
 
 export const routeList = [
@@ -8,6 +9,7 @@ export const routeList = [
         path: PATH.main,
         title: "Dashboard",
         icon: <NavDashIcon/>,
+        activeIcon:<NavDashIcon/>,
         element: <Dashboard/>,
         children: []
     },
@@ -16,6 +18,7 @@ export const routeList = [
         path: PATH.tables,
         title: "Tables",
         icon: <TablesIcon/>,
+        activeIcon:<TablesIcon/>,
         element: <Tables/>,
         children: []
     },

@@ -2,7 +2,11 @@
 
 body{
     overflow-y: hidden;
-}
+    background-image: url("./assets/img/DashboardScreenBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+} 
 .login-bg{
     background-image: url("./assets/img/loginBG.png");
     background-position: center;
@@ -24,5 +28,17 @@ radial-gradient(60% 51.57% at 50% 50%, #582CFF 0%, rgba(88, 44, 255, 0) 100%) /*
 radial-gradient(54.8% 53% at 50% 50%, #151515 0%, rgba(21, 21, 21, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
 backdrop-filter: blur(42px)
+
+}
+.body-bg{
+    background: linear-gradient(111.84deg, rgba(6, 11, 38, 0.94) 59.3%, rgba(26, 31, 55, 0) 100%);
+    backdrop-filter: blur(120px)
+}
+
+.span{
+    border: 1px solid;
+
+border-image-source: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%);
+
 
 }

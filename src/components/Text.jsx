@@ -1,7 +1,7 @@
 
-const Text = ({children}) => {
+const Text = ({children, classList}) => {
   return (
-   <p className={`text-[14px] font-normal text-[#A0AEC0]` }>{children}</p>
+   <p className={`text-[14px] font-normal text-[#A0AEC0] ${classList}`}>{children}</p>
   )
 }
 

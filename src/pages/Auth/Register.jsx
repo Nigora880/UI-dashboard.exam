@@ -118,7 +118,7 @@ const Register = () => {
               <span className="text-[#FFFFFF] pl-[25px] pb-[2px]">Name</span>
               <Input
                 classList={"!w-[300px] mx-auto !py-[10px] pb-[20px]"}
-                type={"fullname"}
+                type={"text"}
                 placeholder={"Your full name"}
               />
               <span className="text-[#FFFFFF] pl-[25px] pb-[2px]">Email</span>
